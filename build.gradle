@@ -16,6 +16,7 @@ project(':') {
     apply plugin: 'scala'
     apply plugin: 'idea'
     apply plugin: "com.github.maiflai.scalatest"
+    mainClassName = "com.example.SimpleApplication"
     repositories {
         mavenCentral()
         jcenter()
